@@ -824,7 +824,7 @@ async function processIncomingMessage(from, messageId, type, messageText, mediaI
         const balance = wallet.length > 0 ? wallet[0].balance : 0;
 
         if (balance < cost) {
-            await sendCloudMessage(from, 'kushubo credit');
+            await sendCloudMessage(from, '💳 *Credit-kaagu kuma filna!*\n\nKu shubo credit si aad u sii wadato isticmaalka.');
             return;
         }
 
@@ -909,7 +909,7 @@ async function processIncomingMessage(from, messageId, type, messageText, mediaI
     }
 
     try {
-        const aiResponse = await askGemini(finalPrompt, "gemini-2.5-flash", attachmentData, history, darkpenSystemInstruction);
+        const aiResponse = await askGemini(finalPrompt, "gemini-3.1-flash-lite", attachmentData, history, darkpenSystemInstruction);
 
         let isRunningOut = false;
         const [walletRows] = await db.execute('SELECT balance FROM user_wallet WHERE user_id = ?', [userId]);
@@ -990,7 +990,7 @@ async function processIncomingMessage(from, messageId, type, messageText, mediaI
         // Log usage
         logAIUsage(
             userId, 
-            'gemini-1.5-flash', 
+            'gemini-3.1-flash-lite', 
             finalPrompt, 
             aiResponse, 
             voiceCostApplied ? 'voice' : (hasImage ? 'image' : 'education'),
