@@ -1,5 +1,0 @@
-2026/06/12-17:50:52.394 83 Creating DB /opt/render/project/src/backend/.wwebjs_auth/session/Default/IndexedDB/https_web.whatsapp.com_0.indexeddb.leveldb since it was missing.
-2026/06/12-17:50:52.400 83 Reusing MANIFEST /opt/render/project/src/backend/.wwebjs_auth/session/Default/IndexedDB/https_web.whatsapp.com_0.indexeddb.leveldb/MANIFEST-000001
-2026/06/12-17:51:28.192 5f Level-0 table #5: started
-2026/06/12-17:51:28.298 5f Level-0 table #5: 1085540 bytes OK
-2026/06/12-17:51:28.300 5f Delete type=0 #3
