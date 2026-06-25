@@ -1,0 +1,9 @@
+2026/06/23-14:45:17.222 23ac Reusing MANIFEST c:\Users\Owner\.gemini\antigravity\scratch\darkpen\backend\.wwebjs_auth\RemoteAuth-darkpen\Default\Local Storage\leveldb/MANIFEST-000001
+2026/06/23-14:45:17.264 23ac Recovering log #134
+2026/06/23-14:45:17.276 23ac Reusing old log c:\Users\Owner\.gemini\antigravity\scratch\darkpen\backend\.wwebjs_auth\RemoteAuth-darkpen\Default\Local Storage\leveldb/000134.log 
+2026/06/23-15:05:54.518 2720 Level-0 table #139: started
+2026/06/23-15:05:54.531 2720 Level-0 table #139: 15853 bytes OK
+2026/06/23-15:05:54.535 2720 Delete type=0 #134
+2026/06/23-17:05:57.077 2720 Level-0 table #141: started
+2026/06/23-17:05:57.099 2720 Level-0 table #141: 14045 bytes OK
+2026/06/23-17:05:57.104 2720 Delete type=0 #138
